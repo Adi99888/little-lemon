@@ -1,0 +1,420 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type:none;
+  
+}
+html{
+  font-size: 62.5%;
+}
+/* nav css */
+.navigation{
+  display: grid;
+  grid-template-columns: 25rem 1fr 3fr 25rem ;
+  height: 8rem;
+}
+.nav-img{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+}
+.nav-img img{
+  width: 70%;
+}
+.links{
+  text-decoration: none;
+  color: black;
+  
+
+ 
+
+}
+.nav-links {
+grid-column: 3/4;
+
+}
+.nav-links nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.hero{
+  display: grid;
+  grid-template-columns: 25rem 2fr 1fr 2fr 25rem;
+  background-color: #495557;
+  height: 40rem;
+}
+.intro{
+ grid-column: 2/3;
+}
+.intro h1{
+  font-size: xxx-large;
+  font-weight: 800;
+  color: #f4ce14;
+  padding-top: 2rem;
+}
+.intro h2{
+  font-size: xx-large;
+  font-weight: 700;
+  color: white;
+  padding-top: 1.5rem;
+}
+.intro p{
+  font-size:x-large;
+  font-weight: 500;
+  color: white;
+  padding: 2rem 0 1rem 0;
+}
+.intro-img{
+  grid-column: 4/5;
+  /* background-color:blue; */
+}
+.intro-img img{
+  width: 40rem;
+  height: 45rem;
+  margin: 2rem 0 0 1rem;
+  border-radius: 16px;
+}
+.intro button{
+  background-color: #f4ce14;
+  height: 6rem;
+  width: 22rem;
+  border-radius: 16px;
+}
+.heading{
+  display: grid;
+  grid-template-columns: 25rem 2fr 1fr 1fr 25rem;
+  margin-top: 10rem;
+}
+.special-heading{
+  grid-column: 2/3;
+}
+.special-heading h2{
+  font-size: xxx-large;
+  font-weight: 700;
+  
+}
+.special-btn{
+  grid-column:4/5 ;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 25rem 2rem 25rem;
+}
+.item{
+  width: 264.67px;
+  height: 439px;
+  background-color: #edefee;
+  border-radius: 16px 16px 0 0;
+  margin-top: 1rem;
+}
+.item h2{
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90%;
+padding: 1rem;
+}
+.item p{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+padding: 0.5rem 0  0 1rem;
+}
+.item img{
+  width: 100%;
+  height: 50%;
+  border-radius: 16px 16px 0 0 ;
+}
+.item button{
+  border: none;
+  text-align: left;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 2.5rem 0 0 1rem;
+}
+
+
+.item button img{
+  width: 10%;
+}
+.price{
+font-weight: 700;
+color: #EE9972;
+position: relative;
+left: 18.3rem;
+top: -3rem;
+}
+.user-testimonials{
+  background-color: #fbdabb;
+  padding-bottom: 5rem;
+  
+}
+.user-testimonials h1{
+  text-align: center;
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  
+  padding-top: 5rem;
+  
+  
+}
+.user-reviews{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 4rem 20rem 0 20rem;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.user-review{
+  width: 200px;
+  height: 175px;
+  background-color: #ee9972;
+  margin: 5px;
+  padding: 2rem;
+}
+.user-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #0f0f0f;
+  margin: 5px;
+}
+.user-img img{
+  width: 100%;
+}
+.user-rating ,.user-name{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 5px;
+}
+.user-name{
+  position: relative;
+  left: 94px;
+  top: -54px;
+}
+.review-text{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 25rem 1fr .4fr 1fr 25rem;
+  background-color:#edefee;
+}
+.about-us{
+  grid-column: 2/3;
+
+}
+
+.about-us p{
+ font-family: 'Karla';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 23px;
+ text-align: justify;
+ padding: 2rem 2rem 0 0;
+ height: 100%;
+ width: 90%;
+}
+.about-us h1{
+  font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+padding-top: rem;
+
+}
+.about-us h2{
+font-family: 'Markazi Text';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 40px;
+ line-height: 48px;
+}
+.about-img{
+  grid-column: 4/5;
+  padding: 2rem;
+}
+.about-img img{
+ width: 100%;
+ 
+}
+.footer{
+  display: flex;
+  padding: 10rem;
+  background-color: #495557;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-link{
+  text-decoration: none;
+color: black;
+}
+.footer-nav ul li  ,.contact ul li , .social-links ul li{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  
+}
+
+.footer ul h2 ,.contact ul h2 , .social-links ul h2{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+
+.footer-img{
+  height: 90px;
+  width: 70px;
+  align-self: center;
+}
+.footer-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.special-btn button{
+  
+  background-color: #f4ce14;
+  height: 6rem;
+  width: 22rem;
+  border-radius: 16px;
+}
+@media screen and (max-width:1307px) {
+  .container{
+  
+    grid-template-columns: 15rem 1fr .3fr 1fr 15rem;
+  }
+}
+@media screen and (max-width:996px){
+  .navigation{
+     grid-template-columns: 5rem 1fr 3fr 5rem ;;
+  }
+  .hero{
+    
+    grid-template-columns: 5rem 2fr 0.5fr 2fr 5rem;
+    height: 45rem;
+  }
+  .intro-img img{
+    width: 35rem;
+    height: 40rem;
+    margin-top: 2rem;
+    border-radius: 16px;
+  }
+  .intro button{
+    background-color: #f4ce14;
+    height: 4rem;
+    width: 18rem;
+    border-radius: 16px;
+  }
+  .heading{
+  
+  grid-template-columns: 5rem 2fr 1fr 1fr 5rem;
+  }
+  .special-heading h2{
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  .special-btn button{
+  
+    background-color: #f4ce14;
+    height: 4rem;
+    width: 18rem;
+    border-radius: 16px;
+  }
+  .items{
+    margin: 10rem 5rem 0 5rem;
+  }
+  .user-reviews{
+    margin: 3rem 5rem 0 5rem;
+  
+  }
+  .container{
+  
+    grid-template-columns: 5rem 1fr .3fr 1fr 5rem;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  .navigation{
+     grid-template-columns: 1rem 1fr 3fr 1rem ;;
+  }
+  .hero{
+    grid-template-columns: 1rem 2fr 1fr 2fr 1rem;
+  
+    height: 50rem;
+  }
+  .intro-img img{
+    width: 30rem;
+    height: 35rem;
+    margin-top: 2rem;
+    border-radius: 16px;
+  }
+  .items{
+    margin: 10rem 1rem 0 1rem;
+  }
+  .user-reviews{
+    margin: 2rem 1rem 0 1rem;
+  
+  }
+  .container{
+  
+    grid-template-columns: 1rem 1fr .3fr 1fr 1rem;
+  }
+
+}
