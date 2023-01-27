@@ -1,10 +1,20 @@
 import React from 'react'
+import BookingForm from './BookingForm'
 
 function BookingPage() {
+  
+  
+  
+  function getAvailableTimes(availableTimes){
+    console.log(availableTimes)
+  }
+
+ 
   return (
-    <div>
-      <h1>booking page</h1>
-    </div>
+    
+    <>
+      <BookingForm getAvailableTimes={getAvailableTimes}/>
+    </>
   )
 }
 
